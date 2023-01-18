@@ -1,0 +1,331 @@
+/* PAGE INDEX */
+@font-face {
+    font-family: "Luisana";
+    src: url(/assets/font/Lusiana.ttf);
+}
+
+#navModif {
+    background-color: #fffce4;
+}
+
+.nav-link {
+    font-family: "Luisana";
+    color: #fc5c01;
+    font-size: 2.2vh;
+}
+
+#navModif2 {
+    padding: 0;
+
+}
+
+h2 {
+    font-family: "Luisana";
+    color: #fc5c01;
+}
+
+h1 {
+    font-family: "Luisana";
+    font-size: 8vh;
+    margin: 15vh 0 8vh 0;
+    text-align: center;
+}
+
+#logobigt {
+    width: 10vw;
+}
+
+#navItem {
+    min-width: 80vw;
+}
+
+#aboutContent {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+}
+
+#aboutContentTwo {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+}
+
+#imgApiculteurTwo {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#imgApiculteurTwo>img {
+    margin: 1vw;
+    width: 70%;
+    border-radius: 10%;
+}
+
+#imgApiculteur>img {
+    margin: 1vw;
+    width: 70%;
+    border-radius: 10%;
+}
+
+#aboutTextTwo {
+
+    margin: 1vh 3vw 1vh 0;
+    grid-column: 1;
+}
+
+#aboutText {
+
+    margin: 1vh 3vw 1vh 0;
+    grid-column: 2;
+}
+
+#aboutTextTwo>p {
+    margin-top: 1.5vh;
+    font-size: 2.5vh;
+}
+
+#aboutText>p {
+    margin-top: 3vh;
+    font-size: 2.5vh;
+}
+
+#aboutContentTwo {
+    margin-top: 10vh;
+}
+
+/* PAGE RUCHE */
+#gridBee {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 4;
+}
+
+#gridBee>img {
+    margin: 1vh 1vw 1vh 1vw;
+}
+
+#imgRuche {
+    display: flex;
+    justify-content: center;
+
+}
+
+#imgRuche>img {
+    width: 80vw;
+}
+
+#imgCarte {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    margin-top: 5vh;
+}
+
+#aboutTextThree {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+#beeOne {
+    display: flex;
+    align-items: center;
+    margin: 1vh 1vw 1vh 1vw;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#beeTwoo {
+    display: flex;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#beeThree {
+    display: flex;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#beeFour {
+    display: flex;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.h2Modif{
+    margin: 6vh 3vw 6vh 3vw;
+}
+#aboutTextThree>p {
+    margin-top: 3vh;
+    font-size: 2.5vh;
+}
+#gridBee>p{
+    font-size: 2.5vh;
+}
+
+/* PAGE BOUTIQUE */
+
+#shopModif{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttonModif{
+    color:#fffce4;
+    background-color:#fc5c01;
+    border: #fffce4;
+}
+
+/* CONTACT */
+#shopModifTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+iframe{
+    height: 50vh;
+    width: 40vw;
+}
+#formModif{
+    font-weight: bold;
+    color: #fc5c01;
+    display: flex;
+flex-direction: column;
+}
+#formModif>button{
+    margin-top: 1vh;
+    background-color:#fc5c01;
+    color: #fffce4;
+    border: #fffce4;
+}
+#formModif>h2{
+    margin-bottom: 5vh;
+
+}
+.bolder{
+font-weight: bold;    
+}    
+
+/* PAGE FOOTER */
+.social>a>img{
+    vertical-align: baseline;
+}    
+.footer-basic {
+    padding-top: 3vh;
+    margin-top: 5vh;
+    padding: 2vh 0 1vh 0;
+    background-color: #fffce4;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic .ulTwo {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic, .liTwo {
+    padding:0 10px;
+  }
+  
+  .footer-basic, .ulTwo>a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic .ulTwo a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    text-align:center;
+    font-size:13px;
+    color:#fc5c01;
+    margin-bottom:0;
+  }
+  
+  /* Credit to https://epicbootstrap.com/snippets/footer-basic */
+
+
+
+@media all AND (max-width:500px) {
+    #aboutContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #aboutContentTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #logobigt {
+        width: 40vw;
+    }
+
+    #imgApiculteurTwo {
+        display: flex;
+        justify-content: center;
+    }
+
+    #imgApiculteur {
+        display: flex;
+        justify-content: center;
+    }
+
+    #gridBee {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #imgCarte {
+        height: 25vh;
+    }
+    #shopModif{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #shopModif>div{
+        margin-top: 2vh;
+    }
+    iframe{
+        height: 60vh;
+        width: 60vw;
+    }
+}
