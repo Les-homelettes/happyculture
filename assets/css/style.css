@@ -280,7 +280,7 @@ font-weight: bold;
 
 
 
-@media all AND (max-width:800px) {
+@media all AND (max-width:1000px) {
     #aboutContent {
         display: flex;
         flex-direction: column;
