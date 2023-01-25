@@ -1,9 +1,4 @@
 /* PAGE INDEX */
-@font-face {
-    font-family: "Luisana";
-    src: url(/assets/font/Lusiana.ttf);
-}
-
 #navModif {
     background-color: #fffce4;
 }
@@ -278,8 +273,11 @@ font-weight: bold;
   
   /* Credit to https://epicbootstrap.com/snippets/footer-basic */
 
-
-
+@media all AND (max-width:500px) {
+    #logobigt {
+        width: 40vw;
+    }
+}
 @media all AND (max-width:1000px) {
     #aboutContent {
         display: flex;
@@ -291,10 +289,6 @@ font-weight: bold;
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-
-    #logobigt {
-        width: 40vw;
     }
 
     #imgApiculteurTwo {
